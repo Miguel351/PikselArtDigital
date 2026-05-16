@@ -59,7 +59,7 @@ export function ForgotPasswordForm() {
       <Button type="submit" loading={loading} className="w-full" size="lg">
         Bağlantı Gönder
       </Button>
-      <Link href="/login" className="text-center text-sm text-gray-600 hover:underline">
+      <Link href="/login" className="text-center text-sm text-slate-400 hover:underline">
         ← Girişe dön
       </Link>
     </form>

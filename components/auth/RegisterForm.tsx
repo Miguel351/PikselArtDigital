@@ -90,9 +90,9 @@ export function RegisterForm() {
       <Button type="submit" loading={loading} className="w-full" size="lg">
         Hesap Oluştur
       </Button>
-      <p className="text-center text-sm text-gray-600">
+      <p className="text-center text-sm text-slate-400">
         Zaten hesabın var mı?{" "}
-        <Link href="/login" className="text-blue-600 font-medium hover:underline">
+        <Link href="/login" className="text-blue-400 font-medium hover:underline">
           Giriş yap
         </Link>
       </p>

@@ -47,16 +47,16 @@ export function LoginForm() {
         autoComplete="current-password"
       />
       <div className="flex justify-end">
-        <Link href="/forgot-password" className="text-sm text-blue-600 hover:underline">
+        <Link href="/forgot-password" className="text-sm text-blue-400 hover:underline">
           Şifremi unuttum
         </Link>
       </div>
       <Button type="submit" loading={loading} className="w-full" size="lg">
         Giriş Yap
       </Button>
-      <p className="text-center text-sm text-gray-600">
+      <p className="text-center text-sm text-slate-400">
         Hesabın yok mu?{" "}
-        <Link href="/register" className="text-blue-600 font-medium hover:underline">
+        <Link href="/register" className="text-blue-400 font-medium hover:underline">
           Ücretsiz kaydol
         </Link>
       </p>
